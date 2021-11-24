@@ -114,9 +114,6 @@ header { display: flex;
   }
   /* HERO STYLES END 
   /* add this alongside your other declarations */
-  { 
-  margin: 0 auto;
-}
 .steps {
   background: #fce138;
 } 
@@ -128,7 +125,6 @@ header { display: flex;
   width: 50%;
   font-size: 55px;
   color: #024e76;
-  display: inline-block;
   border-bottom: 3px solid;
 }
 
@@ -156,16 +152,7 @@ header { display: flex;
   color: #39a6b2;
   font-size: 18px;
 }
-.intro h2 {
-  display: inline-block;
-  font-size: 55px;
-  color: #024e76;
-  margin-bottom: 35px;
-  padding: 0 100px 20px 100px;
-  border-bottom: 3px solid;
-  border-color: #fce138;
-  text-align: center;
-}.trainer {
+.trainer {
   width: 900px;
   margin: 0 auto 30px auto;
   background: #024e76;
@@ -219,7 +206,6 @@ header { display: flex;
   width: 410px;
   display: inline-block;
   vertical-align: top;
-  text-align: left;
   margin: 30px 0 0 60px;
   color: white;
 }
@@ -270,5 +256,8 @@ header { display: flex;
   flex: 12;
 } .step-img img {
   max-width: 100%;
+} 
+.intro p {
+  text-align: center;
 }
 /* REACH OUT STYLES END */
