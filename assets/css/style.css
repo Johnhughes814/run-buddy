@@ -71,21 +71,20 @@ header { display: flex;
   background-position: center;
   position: relative;
 }
-/* Hero Style End */.hero-form {
-  background-color: #fce138;
-  padding: 20px;
-  width: 500px;
-  color: #024e76;
-}.hero-form {
+/* Hero Style End */
+
+.hero-form {
   border: 3px solid #024e76;
   background-color: #fce138;
   padding: 20px;
-  width: 500px;
+  width: 40%;
   color: #024e76;
   position: absolute;
   bottom: 120px;
   right: 140px;
-}.hero-form h3 {  
+  margin: 3.5%;
+}
+.hero-form h3 {  
     font-size: 24px;
     margin: 0;
   }
@@ -181,6 +180,7 @@ header { display: flex;
   padding: 35px;
   float: left;
   width: 65%;
+  line-height: 1.3;
 }.text-left {
   text-align: left;
 }
@@ -188,8 +188,7 @@ header { display: flex;
 .text-right {
   text-align: right;
 }.trainer-bio h3 {
-  font-size: 32px;
-  margin-bottom: 8px;
+  font-size: 28px;
 }
 
 .step-text h4 {
@@ -200,7 +199,6 @@ header { display: flex;
 
 .trainer-bio p {
   font-size: 17px;
-  line-height: 1.3;
 }
 .section-title {
   font-size: 55px;
@@ -244,15 +242,19 @@ header { display: flex;
   font-style: italic;
   font-size: 55px;
   color: #fce138;
+}
+.hero-cta{
   width: 35%;
   text-align: right;
   margin: 3.5%;
   color: #fff;
   font-size: 18px;
   line-height: 1.3;
+
 } .flex-row {
   display: flex;
-} .step {
+} 
+.step {
   margin: 50px auto;
   padding-bottom: 50px;
   width: 80%;
